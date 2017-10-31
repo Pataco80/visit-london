@@ -1,0 +1,65 @@
+// VARIABLES
+
+//Colors
+$white: #fff;
+$blue: #0076a3;
+$yellow: #ffba00;
+$green: #548c27;
+$red: #fe2d28;
+$black: #000;
+$bg-color: $blue;
+
+// Colors Lighten/Darken
+$dark-blue: darken($blue, 10);
+
+
+
+// GLOBAL VARIABLES
+
+// Grid & Responsive
+// Sizing
+$columns: 12;
+$grid-max-width: 1200px;
+
+// Breakpoints
+$breakpoint: (
+  phone: 480px,
+  tablet: 768px,
+  desktop: 1024px
+);
+
+// Typography
+// Global fonts
+$text-color: $black;
+$paragraph-font-size: 1.2rem;
+
+// Headers
+$heading-color: $yellow;
+$heading-font-size: (
+  h1: 40px,
+  h2: 36px,
+  h3: 32px,
+  h4: 28px,
+  h5: 24px,
+  h6: 20px
+);
+
+
+// Components
+// Navigation
+$nav-bg-color: $dark-blue;
+
+// Buttons
+$btn-font-size: 16px;
+
+// Body Elements
+// .visit
+$visit-border-color: $white;
+$visit-heading-color: lighten($yellow, 10);
+$visit-text-color: $white;
+
+
+// STYLESHEETS scss
+body {
+  background-color: $bg-color;
+}
