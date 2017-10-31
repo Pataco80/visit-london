@@ -17,6 +17,7 @@ var htmlmin = require('gulp-htmlmin');
 
 var SOURCEPATHS = {
   sassSource : 'src/scss/*.scss',
+  sassAppSource : 'src/scss/app.scss',
   htmlSource : 'src/*.html',
   htmlPartialSource : 'src/partial/*.html',
   jsSource : 'src/js/**',
@@ -49,7 +50,7 @@ gulp.task('sass', function(){
   var sassFiles;
   
   
-  sassFiles = gulp.src(SOURCEPATHS.sassSource)
+  sassFiles = gulp.src(SOURCEPATHS.sassAppSource)
       .pipe(autoprefixer())
       .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
       return merge(bootstrapCSS, sassFiles)
@@ -88,7 +89,7 @@ gulp.task('compress',  function() {
 gulp.task('compresscss', function(){
   var bootstrapCSS = gulp.src('./node_modules/bootstrap/dist/css/bootstrap.css');
   var sassFiles;
-  sassFiles = gulp.src(SOURCEPATHS.sassSource)
+  sassFiles = gulp.src(SOURCEPATHS.sassAppSource)
       .pipe(autoprefixer())
       .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
       return merge(bootstrapCSS, sassFiles)

@@ -31,10 +31,12 @@ $breakpoint: (
 // Typography
 // Global fonts
 $text-color: $black;
-$paragraph-font-size: 1.2rem;
+$global-font-family: 'Arial, Helvetica, Sans-serif';
+$paragraph-font-size: 1.4rem;
 
 // Headers
 $heading-color: $yellow;
+$heading-font-family: 'Arial, Helvetica, Sans-serif';
 $heading-font-size: (
   h1: 40px,
   h2: 36px,
@@ -57,9 +59,3 @@ $btn-font-size: 16px;
 $visit-border-color: $white;
 $visit-heading-color: lighten($yellow, 10);
 $visit-text-color: $white;
-
-
-// STYLESHEETS scss
-body {
-  background-color: $bg-color;
-}
