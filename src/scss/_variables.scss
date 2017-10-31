@@ -30,13 +30,14 @@ $breakpoint: (
 // Typography
 // Global fonts
 $text-color: $black;
-$global-font-family: 'Arial, Helvetica, Sans-serif';
+$global-font-family: 'Open Sans', sans-serif;
 $paragraph-font-size: 1.4rem;
 $paragraph-font-family: $global-font-family;
 
 // Headers
 $heading-color: $yellow;
-$heading-font-family: 'Arial, Helvetica, Sans-serif';
+$heading-font-family: 'Bitter', serif;
+$heading-font-weight: 700;
 $heading-font-size: (
   h1: 40px,
   h2: 36px,
