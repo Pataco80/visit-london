@@ -7,15 +7,14 @@ $yellow: #ffba00;
 $green: #548c27;
 $red: #fe2d28;
 $black: #000;
-$bg-color: $blue;
 
 // Colors Lighten/Darken
 $dark-blue: darken($blue, 10);
 
 
-
 // GLOBAL VARIABLES
-
+$bg-color: $blue;
+$bg-footer: $dark-blue;
 // Grid & Responsive
 // Sizing
 $columns: 12;
@@ -33,6 +32,7 @@ $breakpoint: (
 $text-color: $black;
 $global-font-family: 'Arial, Helvetica, Sans-serif';
 $paragraph-font-size: 1.4rem;
+$paragraph-font-family: $global-font-family;
 
 // Headers
 $heading-color: $yellow;
