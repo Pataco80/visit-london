@@ -68,3 +68,10 @@ $visit-text-color: $white;
 // Cards
 $card-bg-color: $white;
 $card-text-font-size: 1rem;
+
+// Tables
+$table-font-size: 1rem;
+$table-caption-font-family: $heading-font-family;
+$table-caption-text-color: $yellow;
+$table-color: $white;
+$table-hover-bg-color: darken($yellow, 5);
