@@ -15,6 +15,8 @@ $dark-blue: darken($blue, 10);
 // GLOBAL VARIABLES
 $bg-color: $blue;
 $bg-footer: $dark-blue;
+$uppercase-text: uppercase;
+$weight-text: bold;
 // Grid & Responsive
 // Sizing
 $columns: 12;
@@ -79,3 +81,10 @@ $table-hover-bg-color: darken($yellow, 5);
 // Services
 $paragraph-services-font-size: 1rem;
 $paragraph-services-color: $white;
+
+// footer
+$bg-footer: $dark-blue;
+$footer-color: $white;
+$site-info-bg-color: $yellow;
+$site-info-color: $dark-blue;
+$footer-nav-font-size: 1rem;

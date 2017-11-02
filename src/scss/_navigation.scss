@@ -51,3 +51,15 @@
     }
   }
 }
+
+.footer-navigation {
+  @extend .navigation;
+  
+  .menu {
+    float: left;
+    a {
+      font-weight: $weight-text;
+      font-size: $footer-nav-font-size;
+    }
+  }
+}

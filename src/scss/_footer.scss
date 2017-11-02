@@ -1,0 +1,19 @@
+.site-footer {
+  background-color: $bg-footer;
+  color: $footer-color;
+  margin-top: 10px;
+  
+  h2 {
+    margin: 0;
+  }
+  
+  .site-info {
+    text-align: center;
+    color: $site-info-color;
+    background-color: $site-info-bg-color;
+    margin-top: 20px;
+    padding: 10px 0;
+    text-transform: $uppercase-text;
+    font-weight: $weight-text;
+  }
+}
